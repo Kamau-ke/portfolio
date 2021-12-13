@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.wrapper{
+    position: relative;
+    height: 100vh;
+    background-color: #fe7f9c;
+}
+.nav-bar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.nav-bar h2{
+    padding-left: 100px;
+    flex: 1;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li{
+   padding-left: 80px;
+}
+.nav-bar ul li:first-child{
+   
+   
+}
+ul li:last-child{
+    padding-right: 100px;
+}
+main{
+    display: flex;
+}
+
+section{
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 60px;
+}
+.left{
+    flex:1;
+}
+.left h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+.left h6{
+    font-weight: 300;
+}
+.left h5{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.left ul{
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    
+}
+.left ul li{
+    padding-left: 20px;
+}
+
+
+.left button{
+border: 1px;
+border-radius: 10px;
+height: 55px;
+width: 150px;
+padding: 6px;
+color: white;
+background-color: #e32636;
+}
+.right{
+    border-radius: 20px;
+background-color: black;
+border: none;
+outline: none;
+margin-top: 30px;
+margin-right: 50px;
+background-image: url(./breed.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 500px;
+width: 400px;
+}
+.custom-shape-divider-bottom-1631522730 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1631522730 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 140px;
+}
+
+.custom-shape-divider-bottom-1631522730 .shape-fill {
+    fill: #FFFFFF;
+}
